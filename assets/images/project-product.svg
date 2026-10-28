@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" rx="8" fill="#E3D0BE"/>
+  <rect x="28" y="26" width="744" height="488" rx="9" fill="#FFFEFA"/>
+  <rect x="28" y="26" width="744" height="37" rx="9" fill="#E9EBE3"/>
+  <circle cx="47" cy="44" r="4" fill="#E78B70"/><circle cx="62" cy="44" r="4" fill="#E8C86D"/><circle cx="77" cy="44" r="4" fill="#A4CA76"/>
+  <rect x="48" y="79" width="704" height="411" fill="#E9DDCD"/>
+  <text x="80" y="113" fill="#3C362E" font-family="monospace" font-size="13">FORM / FUNCTION</text>
+  <text x="625" y="113" fill="#665D4E" font-family="monospace" font-size="10">COLLECTION 01</text>
+  <text x="80" y="183" fill="#746852" font-family="monospace" font-size="11">DESIGNED TO DO MORE</text>
+  <text x="78" y="242" fill="#2E2822" font-family="Georgia, serif" font-size="51">Less noise.</text>
+  <text x="78" y="291" fill="#2E2822" font-family="Georgia, serif" font-size="51">More focus.</text>
+  <path d="M80 326h143" stroke="#51483B" stroke-width="2"/>
+  <text x="80" y="352" fill="#51483B" font-family="Arial, sans-serif" font-size="14">Explore the collection ↗</text>
+  <circle cx="580" cy="300" r="112" fill="#C89665"/>
+  <rect x="529" y="204" width="102" height="166" rx="25" fill="#C8B49A"/>
+  <path d="M540 211c20-12 57-12 78 0v139c-21 17-57 17-78 0V211Z" fill="#DED1BD"/>
+  <rect x="563" y="189" width="36" height="20" rx="6" fill="#887B67"/>
+  <path d="M539 240h82" stroke="#B5A58E" stroke-width="2"/>
+  <text x="650" y="434" fill="#665D4E" font-family="monospace" font-size="11">01 — 03</text>
+</svg>

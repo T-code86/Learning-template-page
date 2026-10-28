@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" rx="8" fill="#CFD7CC"/>
+  <rect x="28" y="26" width="744" height="488" rx="9" fill="#FFFEFA"/>
+  <rect x="28" y="26" width="744" height="37" rx="9" fill="#E9EBE3"/>
+  <circle cx="47" cy="44" r="4" fill="#E78B70"/><circle cx="62" cy="44" r="4" fill="#E8C86D"/><circle cx="77" cy="44" r="4" fill="#A4CA76"/>
+  <rect x="48" y="79" width="704" height="411" fill="#232C28"/>
+  <rect x="48" y="79" width="66" height="411" fill="#1B221F"/>
+  <text x="72" y="119" fill="#D5F56A" font-family="Georgia, serif" font-size="24" font-weight="700">F.</text>
+  <rect x="70" y="145" width="22" height="18" rx="4" fill="#3E4B41"/>
+  <rect x="76" y="180" width="12" height="12" rx="3" stroke="#778179"/>
+  <rect x="76" y="207" width="12" height="12" rx="3" stroke="#778179"/>
+  <rect x="76" y="234" width="12" height="12" rx="3" stroke="#778179"/>
+  <text x="146" y="113" fill="#A5AEA1" font-family="monospace" font-size="11">MONDAY, 09:41 AM</text>
+  <text x="146" y="158" fill="#E6E9E1" font-family="Arial, sans-serif" font-size="27" font-weight="700">Your work,</text>
+  <text x="146" y="190" fill="#E6E9E1" font-family="Arial, sans-serif" font-size="27" font-weight="700">in progress.</text>
+  <rect x="146" y="216" width="177" height="68" rx="6" fill="#344139"/>
+  <rect x="337" y="216" width="177" height="68" rx="6" fill="#344139"/>
+  <rect x="528" y="216" width="177" height="68" rx="6" fill="#344139"/>
+  <text x="161" y="238" fill="#AFBAAE" font-family="monospace" font-size="9">READING STREAK</text>
+  <text x="161" y="268" fill="#D5F56A" font-family="Arial, sans-serif" font-size="22" font-weight="700">05 days</text>
+  <text x="352" y="238" fill="#AFBAAE" font-family="monospace" font-size="9">TASKS DONE</text>
+  <text x="352" y="268" fill="#D5F56A" font-family="Arial, sans-serif" font-size="22" font-weight="700">12 / 16</text>
+  <text x="543" y="238" fill="#AFBAAE" font-family="monospace" font-size="9">TIME THIS WEEK</text>
+  <text x="543" y="268" fill="#D5F56A" font-family="Arial, sans-serif" font-size="22" font-weight="700">3.5 hours</text>
+  <rect x="146" y="306" width="559" height="143" rx="6" fill="#2A342E" stroke="#424D45"/>
+  <path d="M177 418v-33h38v33M245 418v-68h38v68M313 418v-48h38v48M381 418v-87h38v87M449 418v-59h38v59M517 418v-99h38v99M585 418v-75h38v75" fill="#A3C95E"/>
+  <path d="M170 420h481" stroke="#738071"/>
+  <text x="146" y="470" fill="#A5AEA1" font-family="monospace" font-size="10">WEEKLY ACTIVITY / SAMPLE DATA</text>
+</svg>

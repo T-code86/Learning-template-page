@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" fill="none">
+  <rect width="720" height="500" rx="8" fill="#ECEDE4"/>
+  <text x="40" y="57" fill="#101812" font-family="Arial, sans-serif" font-size="23" font-weight="700">A user action becomes a page update</text>
+  <rect x="38" y="133" width="178" height="225" rx="8" fill="#FFFEFA" stroke="#CCD2C4" stroke-width="2"/>
+  <rect x="54" y="150" width="146" height="24" rx="4" fill="#E9EBE3"/>
+  <circle cx="65" cy="162" r="3" fill="#E78B70"/>
+  <circle cx="76" cy="162" r="3" fill="#E8C86D"/>
+  <text x="58" y="207" fill="#687064" font-family="monospace" font-size="12">Browser page</text>
+  <text x="58" y="238" fill="#101812" font-family="Arial, sans-serif" font-size="15" font-weight="700">Save your work</text>
+  <rect x="58" y="256" width="137" height="42" rx="5" fill="#D5F56A"/>
+  <text x="77" y="282" fill="#33421E" font-family="Arial, sans-serif" font-size="14" font-weight="700">Save changes</text>
+  <text x="58" y="329" fill="#75806E" font-family="Arial, sans-serif" font-size="12">A real button can be</text>
+  <text x="58" y="345" fill="#75806E" font-family="Arial, sans-serif" font-size="12">reached with a keyboard.</text>
+  <path d="M221 244h59" stroke="#74854A" stroke-width="3"/>
+  <path d="m280 244-12-8v16l12-8Z" fill="#74854A"/>
+  <rect x="291" y="162" width="166" height="164" rx="8" fill="#172019"/>
+  <text x="311" y="195" fill="#AEBCA4" font-family="monospace" font-size="12">EVENT LISTENER</text>
+  <text x="311" y="231" fill="#B4A1EF" font-family="monospace" font-size="13">button.addEvent</text>
+  <text x="311" y="252" fill="#B4A1EF" font-family="monospace" font-size="13">Listener("click",</text>
+  <text x="311" y="273" fill="#D5F56A" font-family="monospace" font-size="13">  saveChanges</text>
+  <text x="311" y="294" fill="#B4A1EF" font-family="monospace" font-size="13">);</text>
+  <path d="M463 244h59" stroke="#74854A" stroke-width="3"/>
+  <path d="m522 244-12-8v16l12-8Z" fill="#74854A"/>
+  <rect x="533" y="133" width="149" height="225" rx="8" fill="#FFFEFA" stroke="#CCD2C4" stroke-width="2"/>
+  <text x="551" y="168" fill="#687064" font-family="monospace" font-size="12">UPDATED DOM</text>
+  <path d="M555 185h100M565 201h83M565 217h74" stroke="#B8C0B2" stroke-width="2"/>
+  <rect x="550" y="239" width="115" height="55" rx="5" fill="#E9EFDA"/>
+  <text x="562" y="261" fill="#536631" font-family="Arial, sans-serif" font-size="12" font-weight="700">Saved!</text>
+  <text x="562" y="279" fill="#687064" font-family="Arial, sans-serif" font-size="10">Changes are stored.</text>
+  <text x="38" y="408" fill="#687064" font-family="Arial, sans-serif" font-size="14">Action</text>
+  <text x="291" y="408" fill="#687064" font-family="Arial, sans-serif" font-size="14">JavaScript logic</text>
+  <text x="533" y="408" fill="#687064" font-family="Arial, sans-serif" font-size="14">Visible feedback</text>
+</svg>

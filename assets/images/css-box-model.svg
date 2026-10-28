@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" fill="none">
+  <rect width="720" height="500" rx="8" fill="#ECEDE4"/>
+  <text x="42" y="57" fill="#101812" font-family="Arial, sans-serif" font-size="24" font-weight="700">The CSS box model</text>
+  <text x="42" y="82" fill="#687064" font-family="Arial, sans-serif" font-size="14">Every element occupies a rectangular box.</text>
+  <rect x="128" y="113" width="464" height="321" rx="8" fill="#E5ECD1" stroke="#B6C28E" stroke-width="2"/>
+  <text x="151" y="145" fill="#65743D" font-family="monospace" font-size="17">MARGIN</text>
+  <rect x="180" y="163" width="360" height="229" rx="6" fill="#F3D889" stroke="#CFAD53" stroke-width="2"/>
+  <text x="202" y="195" fill="#725C20" font-family="monospace" font-size="16">BORDER</text>
+  <rect x="233" y="211" width="254" height="145" rx="5" fill="#D5F56A" stroke="#9CB942" stroke-width="2"/>
+  <text x="252" y="243" fill="#536631" font-family="monospace" font-size="15">PADDING</text>
+  <rect x="281" y="260" width="158" height="72" rx="4" fill="#FFFEFA" stroke="#CFD4C7" stroke-width="2"/>
+  <text x="305" y="301" fill="#101812" font-family="Arial, sans-serif" font-size="16" font-weight="700">CONTENT</text>
+  <path d="M111 273H68" stroke="#536631" stroke-width="2"/>
+  <path d="M68 273l10-6v12l-10-6Z" fill="#536631"/>
+  <text x="39" y="254" fill="#536631" font-family="monospace" font-size="12">SPACE</text>
+  <text x="42" y="272" fill="#536631" font-family="monospace" font-size="12">OUTSIDE</text>
+  <path d="M608 273h44" stroke="#536631" stroke-width="2"/>
+  <path d="m652 273-10-6v12l10-6Z" fill="#536631"/>
+  <text x="575" y="251" fill="#536631" font-family="monospace" font-size="12">VISIBLE</text>
+  <text x="575" y="269" fill="#536631" font-family="monospace" font-size="12">EDGE</text>
+</svg>

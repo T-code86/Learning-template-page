@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" fill="none">
+  <rect width="720" height="500" rx="8" fill="#ECEDE4"/>
+  <rect x="36" y="34" width="648" height="432" rx="8" fill="#FFFEFA" stroke="#D3D7CA" stroke-width="2"/>
+  <rect x="64" y="62" width="592" height="62" rx="5" fill="#E8EDDD" stroke="#A8B77E" stroke-width="2"/>
+  <text x="84" y="99" fill="#536631" font-family="monospace" font-size="18">&lt;header&gt;</text>
+  <rect x="64" y="138" width="592" height="44" rx="5" fill="#D5F56A"/>
+  <text x="84" y="166" fill="#33421E" font-family="monospace" font-size="16">&lt;nav&gt;  Home  /  About  /  Projects</text>
+  <rect x="64" y="196" width="592" height="190" rx="5" fill="#F4F4ED" stroke="#D3D7CA" stroke-width="2"/>
+  <text x="84" y="224" fill="#536631" font-family="monospace" font-size="16">&lt;main&gt;</text>
+  <rect x="98" y="240" width="524" height="116" rx="5" fill="#FFFEFA" stroke="#C9CEC1" stroke-width="2"/>
+  <text x="118" y="268" fill="#536631" font-family="monospace" font-size="15">&lt;article&gt;</text>
+  <text x="136" y="305" fill="#101812" font-family="Arial, sans-serif" font-size="22" font-weight="700">A page with a clear story.</text>
+  <text x="136" y="335" fill="#657064" font-family="Arial, sans-serif" font-size="14">Headings, paragraphs, and links in a meaningful order.</text>
+  <text x="84" y="375" fill="#536631" font-family="monospace" font-size="16">&lt;/main&gt;</text>
+  <rect x="64" y="400" width="592" height="42" rx="5" fill="#172019"/>
+  <text x="84" y="427" fill="#D5F56A" font-family="monospace" font-size="16">&lt;footer&gt;  Contact  /  Copyright</text>
+</svg>

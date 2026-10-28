@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn JavaScript variables, functions, events, DOM updates, and accessible interface behavior through practical examples.">
+    <meta name="theme-color" content="#101812">
+    <title>JavaScript Interaction — Web Foundry</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement"><p>THE WEB FOUNDATIONS SERIES <a href="learning-path.html">Follow the learning path <span aria-hidden="true">↗</span></a></p></div>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Web Foundry home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation" data-menu-toggle><span></span><span></span></button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="html.html">HTML</a><a href="css.html">CSS</a><a href="javascript.html" aria-current="page">JavaScript</a><a href="projects.html">Projects</a><a href="learning-path.html">Learning path</a><a class="nav-cta" href="about.html">About <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div></header>
+    <main id="main">
+      <section class="guide-hero section-wrap">
+        <div class="guide-copy">
+          <p class="eyebrow"><span class="section-number">03 / THE WEB FOUNDATIONS</span></p>
+          <p class="guide-kicker">BEHAVIOR &amp; INTERACTION</p>
+          <h1>JavaScript makes<br>pages <span>respond.</span></h1>
+          <p class="guide-lede">JavaScript is the programming language that adds behavior to a web page. It can respond to a click, validate a form, update content, or help a person understand what changed on screen.</p>
+          <div class="guide-meta"><span>BEGINNER FRIENDLY</span><span>6 CORE TOPICS</span><span>BUILD: AN INTERACTIVE UI</span></div>
+          <a class="button button-primary" href="#javascript-topics">Explore the JavaScript topics <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="guide-figure">
+          <img src="assets/images/js-dom.svg" width="720" height="500" alt="A diagram showing a browser button connected through a click event to JavaScript, which updates a message in the document object model.">
+          <figcaption><strong>Reading the diagram</strong> A user action triggers an event listener. Your code responds by updating the page, and the browser presents the result.</figcaption>
+        </figure>
+      </section>
+      <section class="guide-intro-band"><div class="section-wrap"><p><strong>Interaction starts with a clear intention.</strong> Add JavaScript when it helps someone complete a task, understand a result, or control the interface.</p><span>THE THIRD LAYER / 003</span></div></section>
+      <section class="section section-wrap guide-content" id="javascript-topics">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">WHAT YOU'LL LEARN</span></p><h2>Make interfaces<br><span>respond with care.</span></h2></div><p class="section-intro">Build a mental model of how JavaScript runs, how the browser exposes a page to code, and how to keep interactive features understandable.</p></div>
+        <div class="topic-grid">
+          <article class="topic-card"><span class="topic-number">01</span><h3>Values &amp; variables</h3><p>Store information with const and let. Work with strings, numbers, booleans, arrays, and objects to represent the state of a small feature.</p><pre><code>const title = "Web Foundry";
+let completedLessons = 0;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">02</span><h3>Conditions &amp; loops</h3><p>Use conditional logic to make decisions, and loops to process collections. Prefer clear, predictable control flow over clever shortcuts.</p><pre><code>if (isComplete) {
+  showSuccessMessage();
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">03</span><h3>Functions</h3><p>Give a task a name, accept the values it needs, and return a result. Focused functions make behavior easier to test and understand.</p><pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">04</span><h3>Events</h3><p>Listen for actions such as clicks, form submissions, and keyboard input. Respond to the actual event without taking control away from the user.</p><pre><code>button.addEventListener(
+  "click",
+  handleClick
+);</code></pre></article>
+          <article class="topic-card"><span class="topic-number">05</span><h3>The DOM</h3><p>Find elements in the document and update their text, attributes, or state. The DOM is the browser's live representation of your HTML.</p><pre><code>message.textContent =
+  "Your changes are saved.";</code></pre></article>
+          <article class="topic-card"><span class="topic-number">06</span><h3>Accessible interaction</h3><p>Use real buttons and links, keep focus visible, announce important status updates, and make sure features work from a keyboard.</p><pre><code>status.setAttribute(
+  "aria-live",
+  "polite"
+);</code></pre></article>
+        </div>
+      </section>
+      <section class="example-section"><div class="section-wrap example-grid"><div><p class="eyebrow"><span class="section-number">PUT IT INTO PRACTICE</span></p><h2>A tiny feature.<br><span>A thoughtful response.</span></h2><p>Build a small interactive component such as a filter, menu, or completion checklist. Start with semantic HTML, then add only the behavior the feature needs.</p><ul class="check-list"><li>Use clear names for state, events, and functions.</li><li>Handle input without breaking the normal page.</li><li>Make the interaction usable with a keyboard.</li><li>Tell people when their action has changed something.</li></ul></div><aside class="example-note"><span class="example-icon">{ }</span><h3>Quick quality check</h3><p>Try the feature without a mouse. If you cannot reach it, activate it, and understand the result, improve the interaction before adding more code.</p><a href="projects.html#dashboard">Try the dashboard project brief <span aria-hidden="true">↗</span></a></aside></div></section>
+      <nav class="guide-pagination section-wrap" aria-label="Guide pagination"><a href="css.html"><span>PREVIOUS GUIDE</span><strong>CSS: layout &amp; expression</strong></a><a href="projects.html"><span>NEXT</span><strong>Put the skills to work <span aria-hidden="true">→</span></strong></a></nav>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a><p>A small guide to making things for the web.</p><nav class="footer-nav" aria-label="Footer navigation"><a href="html.html">HTML</a><a href="css.html">CSS</a><a href="javascript.html">JavaScript</a><a href="projects.html">Projects</a><a href="about.html">About</a></nav><a href="index.html" class="back-to-top">Home <span aria-hidden="true">↑</span></a><span class="copyright">© <span data-current-year>2026</span> Web Foundry. Made for learning.</span></div></footer>
+  </body>
+</html>

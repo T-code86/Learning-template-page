@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" rx="8" fill="#DDE1D6"/>
+  <rect x="28" y="26" width="744" height="488" rx="9" fill="#FFFEFA"/>
+  <rect x="28" y="26" width="744" height="37" rx="9" fill="#E9EBE3"/>
+  <circle cx="47" cy="44" r="4" fill="#E78B70"/><circle cx="62" cy="44" r="4" fill="#E8C86D"/><circle cx="77" cy="44" r="4" fill="#A4CA76"/>
+  <rect x="48" y="79" width="704" height="411" fill="#34594C"/>
+  <text x="79" y="112" fill="#EAF0E5" font-family="monospace" font-size="13">THE DAILY</text>
+  <text x="626" y="112" fill="#D2DDD1" font-family="monospace" font-size="10">ISSUE NO. 08</text>
+  <path d="M585 168c39 3 81 37 81 82 0 39-41 71-80 69-37-2-65-34-62-76 2-36 25-78 61-75Z" fill="#B7C77B"/>
+  <path d="M589 310c-5-42-9-82-9-124M581 240c-21-19-33-36-38-54M583 264c23-22 39-34 60-41M580 280c-23-4-42-11-55-23M581 210c12-17 26-29 44-38" stroke="#466148" stroke-width="5" stroke-linecap="round"/>
+  <text x="82" y="222" fill="#FFFEFA" font-family="Georgia, serif" font-size="72">A fresh</text>
+  <text x="82" y="294" fill="#FFFEFA" font-family="Georgia, serif" font-size="72">perspective<tspan fill="#D5F56A">.</tspan></text>
+  <path d="M80 331h620" stroke="#789084"/>
+  <text x="81" y="360" fill="#E0E7DF" font-family="monospace" font-size="12">IDEAS FOR CURIOUS MINDS.</text>
+  <text x="560" y="360" fill="#D5F56A" font-family="monospace" font-size="11">READ THE STORY ↗</text>
+</svg>

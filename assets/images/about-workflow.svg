@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="8" fill="#ECEDE4"/>
+  <text x="44" y="57" fill="#101812" font-family="Arial, sans-serif" font-size="24" font-weight="700">A small, repeatable learning loop</text>
+  <text x="44" y="83" fill="#687064" font-family="Arial, sans-serif" font-size="14">Turn a new idea into a visible next step.</text>
+  <path d="M232 221h99M465 221h99" stroke="#74854A" stroke-width="3"/>
+  <path d="m331 221-12-8v16l12-8ZM564 221l-12-8v16l12-8Z" fill="#74854A"/>
+  <path d="M658 271c0 114-86 159-241 159H169c-41 0-58-22-58-57" stroke="#74854A" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="m111 373-8 12 16-1-8-11Z" fill="#74854A"/>
+  <rect x="50" y="144" width="182" height="152" rx="9" fill="#FFFEFA" stroke="#CCD2C4" stroke-width="2"/>
+  <circle cx="75" cy="171" r="12" fill="#E8EDDD"/>
+  <text x="71" y="176" fill="#536631" font-family="monospace" font-size="13">1</text>
+  <text x="68" y="214" fill="#101812" font-family="Arial, sans-serif" font-size="19" font-weight="700">Learn</text>
+  <text x="68" y="242" fill="#687064" font-family="Arial, sans-serif" font-size="13">Understand one</text>
+  <text x="68" y="261" fill="#687064" font-family="Arial, sans-serif" font-size="13">small concept.</text>
+  <rect x="331" y="144" width="182" height="152" rx="9" fill="#FFFEFA" stroke="#CCD2C4" stroke-width="2"/>
+  <circle cx="356" cy="171" r="12" fill="#E8EDDD"/>
+  <text x="352" y="176" fill="#536631" font-family="monospace" font-size="13">2</text>
+  <text x="349" y="214" fill="#101812" font-family="Arial, sans-serif" font-size="19" font-weight="700">Practice</text>
+  <text x="349" y="242" fill="#687064" font-family="Arial, sans-serif" font-size="13">Try it in a focused</text>
+  <text x="349" y="261" fill="#687064" font-family="Arial, sans-serif" font-size="13">little build.</text>
+  <rect x="564" y="144" width="182" height="152" rx="9" fill="#172019"/>
+  <circle cx="589" cy="171" r="12" fill="#34452D"/>
+  <text x="585" y="176" fill="#D5F56A" font-family="monospace" font-size="13">3</text>
+  <text x="582" y="214" fill="#FFFEFA" font-family="Arial, sans-serif" font-size="19" font-weight="700">Reflect</text>
+  <text x="582" y="242" fill="#C5CDBF" font-family="Arial, sans-serif" font-size="13">Write down what</text>
+  <text x="582" y="261" fill="#C5CDBF" font-family="Arial, sans-serif" font-size="13">you'll improve next.</text>
+  <text x="105" y="420" fill="#65743D" font-family="monospace" font-size="12">REPEAT WHEN YOU'RE READY</text>
+</svg>

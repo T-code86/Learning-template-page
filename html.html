@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn semantic HTML, accessible page structure, links, images, forms, and document landmarks with Web Foundry's practical guide.">
+    <meta name="theme-color" content="#101812">
+    <title>HTML Foundations — Web Foundry</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement"><p>THE WEB FOUNDATIONS SERIES <a href="learning-path.html">Follow the learning path <span aria-hidden="true">↗</span></a></p></div>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Web Foundry home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation" data-menu-toggle><span></span><span></span></button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="html.html" aria-current="page">HTML</a><a href="css.html">CSS</a><a href="javascript.html">JavaScript</a><a href="projects.html">Projects</a><a href="learning-path.html">Learning path</a><a class="nav-cta" href="about.html">About <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div></header>
+    <main id="main">
+      <section class="guide-hero section-wrap">
+        <div class="guide-copy">
+          <p class="eyebrow"><span class="section-number">01 / THE WEB FOUNDATIONS</span></p>
+          <p class="guide-kicker">STRUCTURE &amp; MEANING</p>
+          <h1>HTML gives<br>content <span>its shape.</span></h1>
+          <p class="guide-lede">HTML (HyperText Markup Language) is the structure behind every web page. It tells browsers what the content is—a heading, a navigation menu, an image, or a form—so people and technology can make sense of it.</p>
+          <div class="guide-meta"><span>BEGINNER FRIENDLY</span><span>5 CORE TOPICS</span><span>BUILD: A SEMANTIC PAGE</span></div>
+          <a class="button button-primary" href="#html-topics">Explore the HTML topics <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="guide-figure">
+          <img src="assets/images/html-structure.svg" width="720" height="500" alt="A web page outline: header, navigation, main content with a heading and article, and a footer, each labeled as a meaningful HTML element.">
+          <figcaption><strong>Reading the diagram</strong> A page is more than a collection of boxes. Semantic elements name each region so assistive technology and browsers can understand its purpose.</figcaption>
+        </figure>
+      </section>
+      <section class="guide-intro-band"><div class="section-wrap"><p><strong>Think of HTML as the blueprint.</strong> It gives a page a sensible order before any color, layout, or interaction is added.</p><span>THE FIRST LAYER / 001</span></div></section>
+      <section class="section section-wrap guide-content" id="html-topics">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">WHAT YOU'LL LEARN</span></p><h2>Make every element<br><span>mean something.</span></h2></div><p class="section-intro">Start with a document that is easy to read, easy to navigate, and ready to be styled. These fundamentals are useful in every web project.</p></div>
+        <div class="topic-grid">
+          <article class="topic-card"><span class="topic-number">01</span><h3>The document skeleton</h3><p>Set up the doctype, language, metadata, page title, and body. A reliable document structure is the starting point for every page.</p><pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;...&lt;/head&gt;
+  &lt;body&gt;...&lt;/body&gt;
+&lt;/html&gt;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">02</span><h3>Headings &amp; content</h3><p>Use headings in a logical hierarchy. Choose paragraphs, lists, and quotations according to what the content means—not how you want it to look.</p><pre><code>&lt;article&gt;
+  &lt;h2&gt;A clear section&lt;/h2&gt;
+  &lt;p&gt;An idea, explained.&lt;/p&gt;
+&lt;/article&gt;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">03</span><h3>Links &amp; navigation</h3><p>Connect pages with descriptive link text. Make it clear where a link goes and use navigation landmarks to help people move around.</p><pre><code>&lt;nav aria-label="Main"&gt;
+  &lt;a href="projects.html"&gt;
+    View projects
+  &lt;/a&gt;
+&lt;/nav&gt;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">04</span><h3>Images &amp; alternatives</h3><p>Use image alternatives to communicate the information in an image. Decorative images can use empty alt text so they do not add noise.</p><pre><code>&lt;img src="assets/images/html-structure.svg"
+  alt="Header, main content,
+       and footer in a page"&gt;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">05</span><h3>Forms &amp; labels</h3><p>Give every input a visible, programmatically connected label. Use appropriate input types and explain what a person should enter.</p><pre><code>&lt;label for="email"&gt;
+  Email address
+&lt;/label&gt;
+&lt;input id="email"
+  type="email"&gt;</code></pre></article>
+          <article class="topic-card"><span class="topic-number">06</span><h3>Semantic landmarks</h3><p>Build with header, nav, main, section, article, and footer where they fit. Landmarks help screen-reader users understand and jump through a page.</p><pre><code>&lt;main&gt;
+  &lt;article&gt;
+    &lt;h1&gt;A useful page&lt;/h1&gt;
+  &lt;/article&gt;
+&lt;/main&gt;</code></pre></article>
+        </div>
+      </section>
+      <section class="example-section"><div class="section-wrap example-grid"><div><p class="eyebrow"><span class="section-number">PUT IT INTO PRACTICE</span></p><h2>A page with<br><span>a clear story.</span></h2><p>Build a simple article page with a site header, a labeled navigation menu, one main heading, a few sections, a meaningful image, and a footer. First check whether the page makes sense without any CSS.</p><ul class="check-list"><li>Give the document a useful title and language.</li><li>Use one clear page-level heading.</li><li>Write link text that makes sense out of context.</li><li>Describe useful images with alt text.</li></ul></div><aside class="example-note"><span class="example-icon">&lt;/&gt;</span><h3>Quick quality check</h3><p>Turn off styles or inspect the document outline. If the order and purpose of the content still make sense, your HTML is doing its job.</p><a href="projects.html#editorial">Try the editorial project brief <span aria-hidden="true">↗</span></a></aside></div></section>
+      <nav class="guide-pagination section-wrap" aria-label="Guide pagination"><a href="learning-path.html"><span>PREVIOUS</span><strong>Learning path</strong></a><a href="css.html"><span>NEXT GUIDE</span><strong>CSS: layout &amp; style <span aria-hidden="true">→</span></strong></a></nav>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a><p>A small guide to making things for the web.</p><nav class="footer-nav" aria-label="Footer navigation"><a href="html.html">HTML</a><a href="css.html">CSS</a><a href="javascript.html">JavaScript</a><a href="projects.html">Projects</a><a href="about.html">About</a></nav><a href="index.html" class="back-to-top">Home <span aria-hidden="true">↑</span></a><span class="copyright">© <span data-current-year>2026</span> Web Foundry. Made for learning.</span></div></footer>
+  </body>
+</html>

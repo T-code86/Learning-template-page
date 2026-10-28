@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="8" fill="#ECEDE4"/>
+  <text x="45" y="56" fill="#101812" font-family="Arial, sans-serif" font-size="24" font-weight="700">A route through the foundations</text>
+  <text x="45" y="82" fill="#687064" font-family="Arial, sans-serif" font-size="14">Each skill gives you a new way to shape the same page.</text>
+  <path d="M178 194h158M464 194h158" stroke="#7D8D51" stroke-width="3"/>
+  <path d="m336 194-12-8v16l12-8ZM622 194l-12-8v16l12-8Z" fill="#7D8D51"/>
+  <path d="M676 233c0 104-84 151-218 151H178" stroke="#7D8D51" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="m178 384 12-8v16l-12-8Z" fill="#7D8D51"/>
+  <rect x="48" y="132" width="130" height="125" rx="8" fill="#FFFEFA" stroke="#C9D0BD" stroke-width="2"/>
+  <rect x="65" y="149" width="33" height="24" rx="4" fill="#E8EDDD"/>
+  <text x="72" y="166" fill="#536631" font-family="monospace" font-size="12">01</text>
+  <text x="65" y="205" fill="#101812" font-family="Arial, sans-serif" font-size="18" font-weight="700">Structure</text>
+  <text x="65" y="229" fill="#667060" font-family="monospace" font-size="13">HTML</text>
+  <rect x="336" y="132" width="130" height="125" rx="8" fill="#FFFEFA" stroke="#C9D0BD" stroke-width="2"/>
+  <rect x="353" y="149" width="33" height="24" rx="4" fill="#E8EDDD"/>
+  <text x="360" y="166" fill="#536631" font-family="monospace" font-size="12">02</text>
+  <text x="353" y="205" fill="#101812" font-family="Arial, sans-serif" font-size="18" font-weight="700">Presentation</text>
+  <text x="353" y="229" fill="#667060" font-family="monospace" font-size="13">CSS</text>
+  <rect x="622" y="132" width="130" height="125" rx="8" fill="#FFFEFA" stroke="#C9D0BD" stroke-width="2"/>
+  <rect x="639" y="149" width="33" height="24" rx="4" fill="#E8EDDD"/>
+  <text x="646" y="166" fill="#536631" font-family="monospace" font-size="12">03</text>
+  <text x="639" y="205" fill="#101812" font-family="Arial, sans-serif" font-size="18" font-weight="700">Interaction</text>
+  <text x="639" y="229" fill="#667060" font-family="monospace" font-size="13">JavaScript</text>
+  <rect x="242" y="329" width="224" height="105" rx="8" fill="#172019"/>
+  <rect x="260" y="346" width="32" height="23" rx="4" fill="#34452D"/>
+  <text x="267" y="362" fill="#D5F56A" font-family="monospace" font-size="12">04</text>
+  <text x="260" y="393" fill="#FFFEFA" font-family="Arial, sans-serif" font-size="19" font-weight="700">Your own project</text>
+  <text x="260" y="415" fill="#C5CDBF" font-family="monospace" font-size="12">BUILD · REFINE · SHARE</text>
+</svg>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn CSS selectors, the box model, responsive layouts, Grid, Flexbox, typography, and accessible styling with Web Foundry.">
+    <meta name="theme-color" content="#101812">
+    <title>CSS Layout &amp; Style — Web Foundry</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement"><p>THE WEB FOUNDATIONS SERIES <a href="learning-path.html">Follow the learning path <span aria-hidden="true">↗</span></a></p></div>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Web Foundry home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation" data-menu-toggle><span></span><span></span></button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="html.html">HTML</a><a href="css.html" aria-current="page">CSS</a><a href="javascript.html">JavaScript</a><a href="projects.html">Projects</a><a href="learning-path.html">Learning path</a><a class="nav-cta" href="about.html">About <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div></header>
+    <main id="main">
+      <section class="guide-hero section-wrap">
+        <div class="guide-copy">
+          <p class="eyebrow"><span class="section-number">02 / THE WEB FOUNDATIONS</span></p>
+          <p class="guide-kicker">LAYOUT &amp; EXPRESSION</p>
+          <h1>CSS brings<br>ideas <span>to life.</span></h1>
+          <p class="guide-lede">CSS (Cascading Style Sheets) describes how HTML should look and adapt. Use it to build layouts, choose type and color, create visual rhythm, and make the experience work across different screen sizes.</p>
+          <div class="guide-meta"><span>BEGINNER FRIENDLY</span><span>6 CORE TOPICS</span><span>BUILD: A RESPONSIVE PAGE</span></div>
+          <a class="button button-primary" href="#css-topics">Explore the CSS topics <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="guide-figure">
+          <img src="assets/images/css-box-model.svg" width="720" height="500" alt="An annotated CSS box model, with the outer margin, border, inner padding, and content area shown as four nested rectangles.">
+          <figcaption><strong>Reading the diagram</strong> Every element is a box. Content sits inside padding; the border wraps both; margin creates space outside the border.</figcaption>
+        </figure>
+      </section>
+      <section class="guide-intro-band"><div class="section-wrap"><p><strong>CSS is both a system and a craft.</strong> Reusable rules make your design consistent; responsive layouts let that design adapt to the person using it.</p><span>THE SECOND LAYER / 002</span></div></section>
+      <section class="section section-wrap guide-content" id="css-topics">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">WHAT YOU'LL LEARN</span></p><h2>Build a visual system<br><span>that can flex.</span></h2></div><p class="section-intro">Learn how CSS chooses elements, calculates space, and arranges content. Then bring those ideas together in a layout that feels good on any screen.</p></div>
+        <div class="topic-grid">
+          <article class="topic-card"><span class="topic-number">01</span><h3>Selectors &amp; the cascade</h3><p>Target elements with selectors and understand why one rule wins over another. Keep specificity predictable and organize styles so they are easy to maintain.</p><pre><code>.article-title {
+  color: #101812;
+  font-size: 2rem;
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">02</span><h3>The box model</h3><p>Understand content, padding, borders, and margins. Use border-box sizing to make dimensions easier to reason about as a layout grows.</p><pre><code>* {
+  box-sizing: border-box;
+}
+
+.card { padding: 1.5rem; }</code></pre></article>
+          <article class="topic-card"><span class="topic-number">03</span><h3>Typography &amp; color</h3><p>Create hierarchy with readable type sizes, comfortable line-height, and purposeful contrast. Use design tokens for values shared across components.</p><pre><code>:root {
+  --ink: #101812;
+  --space: 1.5rem;
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">04</span><h3>Flexbox</h3><p>Use Flexbox to arrange items along one axis. It works especially well for navigation bars, aligned controls, and evenly spaced content.</p><pre><code>.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">05</span><h3>Grid</h3><p>Use CSS Grid to arrange content in rows and columns. Combine flexible tracks with minimum widths to build layouts that respond naturally.</p><pre><code>.cards {
+  display: grid;
+  grid-template-columns:
+    repeat(3, 1fr);
+  gap: 1rem;
+}</code></pre></article>
+          <article class="topic-card"><span class="topic-number">06</span><h3>Responsive design</h3><p>Build a fluid baseline, then add breakpoints when the content needs them. Check your design at narrow widths, not just device presets.</p><pre><code>.layout {
+  width: min(100% - 2rem,
+    70rem);
+  margin-inline: auto;
+}</code></pre></article>
+        </div>
+      </section>
+      <section class="example-section"><div class="section-wrap example-grid"><div><p class="eyebrow"><span class="section-number">PUT IT INTO PRACTICE</span></p><h2>One design.<br><span>Many screens.</span></h2><p>Start with a simple content card. Give it a clear hierarchy, then create a multi-column layout for wide screens and a comfortable single-column version for a phone.</p><ul class="check-list"><li>Use consistent spacing and a small set of design tokens.</li><li>Choose Grid or Flexbox based on the layout problem.</li><li>Keep text readable and controls easy to reach.</li><li>Test for horizontal scrolling at narrow widths.</li></ul></div><aside class="example-note"><span class="example-icon">✳</span><h3>Quick quality check</h3><p>Resize the browser gradually. Content should reflow without getting clipped, overlapping, or requiring sideways scrolling.</p><a href="projects.html#product">Try the product page brief <span aria-hidden="true">↗</span></a></aside></div></section>
+      <nav class="guide-pagination section-wrap" aria-label="Guide pagination"><a href="html.html"><span>PREVIOUS GUIDE</span><strong>HTML: structure &amp; meaning</strong></a><a href="javascript.html"><span>NEXT GUIDE</span><strong>JavaScript: interaction <span aria-hidden="true">→</span></strong></a></nav>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>web<span class="brand-light">foundry</span></span></a><p>A small guide to making things for the web.</p><nav class="footer-nav" aria-label="Footer navigation"><a href="html.html">HTML</a><a href="css.html">CSS</a><a href="javascript.html">JavaScript</a><a href="projects.html">Projects</a><a href="about.html">About</a></nav><a href="index.html" class="back-to-top">Home <span aria-hidden="true">↑</span></a><span class="copyright">© <span data-current-year>2026</span> Web Foundry. Made for learning.</span></div></footer>
+  </body>
+</html>
